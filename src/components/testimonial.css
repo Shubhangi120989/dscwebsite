@@ -1,0 +1,60 @@
+/* Testimonial.css */
+.testimonial-container::-webkit-scrollbar{
+    display: none;
+}
+
+.testimonial-container {
+    display: inline-flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 50px; /* Adjust the space between CardIt components */
+    padding: 50px; /* Optional: Add padding to the container */
+    position: relative;
+    background-color: black;
+    height: 500px;
+
+   
+
+  }
+  
+  /* Optional: Define a fixed width for each CardIt component */
+  .custom-card{
+    height: 500px;
+    width: 400px;
+    background-color:#ffffff;
+    color: #333333;
+    box-shadow: 0 12px 24px rgb(245, 243, 243, 0.815);
+    transform: translateY(-4px); /* Adjust the value based on the desired lift */
+    transition: box-shadow 0.3s, transform 0.3s, transform 0.3s, filter 0.3s;
+    opacity: 0.9;
+    border-radius: 12px; /* Adjust the border radius as needed */
+  backdrop-filter: blur(8px);
+
+ 
+}
+
+    
+  
+  .custom-card:hover{
+    
+    box-shadow: 0 12px 24px rgba(208, 149, 149);
+        filter: brightness(1.2);
+      
+  }
+  .custom-card .cardtitle{
+    color: #982123;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .custom-card .cardtext{
+    text-align: center;
+    color:#333333;
+    font-size: 15px;
+    color: #1c1b1e;
+    font-weight: 500;
+  }
+  .custom-card .cardsub{
+    text-align: center;
+    font-size: 20px;
+  }
+  
