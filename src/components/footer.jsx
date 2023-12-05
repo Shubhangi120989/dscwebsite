@@ -27,37 +27,37 @@ export default class footer extends Component {
 
        </div> 
        <div className="address">
-        <h2 className="footerhead">
+        <h3 className="footerhead">
             Address
-        </h2>
+        </h3>
         <div>Netaji Subhash University of Technology</div>
         <div>Sector -3, Dwarka</div>
         <div>New Delhi - 110078</div>
         <div className="email">
             <a href="">dsc/ieee website here</a>
         </div>
-        <h4>
+        <h6>
             Venus Dharmik
             <br></br>
             Chief-Converner: xxxxxxxxxx
-        </h4>
-        <h4>
+        </h6>
+        <h6>
             Yogya Aggarwal
             <br></br>
             Chief-Converner: xxxxxxxxxx
-        </h4>
+        </h6>
 
 
        </div>
       <div className="links">
-      <h2> Links: </h2>
+      <h3> Links </h3>
                                 
-                                <ul>
-                                    <li>About</li>
-                                    <li>Sponsors</li>
-                                    <li>FAQs</li>
-                                    <li>Contact</li>
-                                </ul>
+       <ul>
+          <li>About</li>
+           <li>Sponsors</li>
+            <li>FAQs</li>
+            <li>Contact</li>
+        </ul>
 
       </div>
       <div className="sponsers">
